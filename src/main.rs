@@ -3,11 +3,8 @@ slint::slint! {
         width: 480px;
         height: 272px;
 
-        Text {
-            text: "Hello Vita!";
-            font-size: 32px;
-            horizontal-alignment: center;
-            vertical-alignment: center;
+        Image {
+            source: @image-url("img/avatar.jpg", nine-slice(30 30 30 30));
         }
     }
 }
